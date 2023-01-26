@@ -14,6 +14,7 @@
                     $new_date = date('d-m-Y', strtotime($comment["date"]));
                     $new_time = date('H:i', strtotime($comment["time_hour"]));
                     echo $new_time;
+                    echo 'TEST';
                     echo '&nbsp;&nbsp';
                     echo $new_date;
                     echo '</div>';
